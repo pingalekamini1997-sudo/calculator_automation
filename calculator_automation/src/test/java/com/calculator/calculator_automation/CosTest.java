@@ -3,9 +3,9 @@ package com.calculator.calculator_automation;
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
-public class CosTest extends setup{
+public class CosTest extends SineTest{
 
-	@Test(priority=1)
+	@Test(priority=6)
 	public void cos_0() throws InterruptedException 
 	{
 		driver.findElement(By.xpath("//*[@id=\"homefunbtn\"]/div[1]/span[2]")).click();
@@ -15,7 +15,7 @@ public class CosTest extends setup{
 		System.out.println("Executing cos_0");
 		Thread.sleep(2000);
 	}
-	@Test(priority=2)
+	@Test(priority=7)
 	public void cos_30() throws InterruptedException 
 	{
 		driver.findElement(By.xpath("//*[@id=\"homefunbtn\"]/div[1]/span[2]")).click();
@@ -26,7 +26,7 @@ public class CosTest extends setup{
 		System.out.println("Executing cos_30");
 		Thread.sleep(1000);
 	}
-	@Test(priority = 3)
+	@Test(priority=8)
 	public void cos_45() throws InterruptedException 
 	{
 		driver.findElement(By.xpath("//*[@id=\"homefunbtn\"]/div[1]/span[2]")).click();
@@ -37,7 +37,7 @@ public class CosTest extends setup{
 		System.out.println("Executing cos_45");
 		Thread.sleep(1000);
 	}
-	@Test(priority=4)
+	@Test(priority=9)
 	public void cos_60() throws InterruptedException 
 	{
 		driver.findElement(By.xpath("//*[@id=\"homefunbtn\"]/div[1]/span[2]")).click();
@@ -48,7 +48,7 @@ public class CosTest extends setup{
 		System.out.println("Executing cos_60");
 		Thread.sleep(1000);
 	}
-	@Test(priority=5)
+	@Test(priority=10)
 	public void cos_90() throws InterruptedException 
 	{
 		driver.findElement(By.xpath("//*[@id=\"homefunbtn\"]/div[1]/span[2]")).click();

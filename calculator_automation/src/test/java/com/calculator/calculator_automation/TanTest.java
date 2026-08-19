@@ -3,9 +3,9 @@ package com.calculator.calculator_automation;
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
-public class TanTest extends setup{
+public class TanTest extends CosTest{
 
-	@Test(priority=0)
+	@Test(priority=11)
 	public void tan_0() throws InterruptedException 
 	{
 		driver.findElement(By.xpath("//*[@id=\"homefunbtn\"]/div[1]/span[3]")).click();
@@ -15,7 +15,7 @@ public class TanTest extends setup{
 		System.out.println("Executing tan_0");
 		Thread.sleep(2000);
 	}
-	@Test(priority=-1)
+	@Test(priority=12)
 	public void tan_30() throws InterruptedException 
 	{
 		driver.findElement(By.xpath("//*[@id=\"homefunbtn\"]/div[1]/span[3]")).click();
@@ -26,7 +26,7 @@ public class TanTest extends setup{
 		System.out.println("Executing tan_30");
 		Thread.sleep(1000);
 	}
-	@Test(priority=2)
+	@Test(priority=13)
 	public void tan_45() throws InterruptedException 
 	{
 		driver.findElement(By.xpath("//*[@id=\"homefunbtn\"]/div[1]/span[3]")).click();
@@ -37,7 +37,7 @@ public class TanTest extends setup{
 		System.out.println("Executing tan_45");
 		Thread.sleep(1000);
 	}
-	@Test
+	@Test(priority=14)
 	public void tan_60() throws InterruptedException 
 	{
 		driver.findElement(By.xpath("//*[@id=\"homefunbtn\"]/div[1]/span[3]")).click();
@@ -48,7 +48,7 @@ public class TanTest extends setup{
 		 System.out.println("Executing tan_60");
 		Thread.sleep(1000);
 	}
-	@Test(priority=3)
+	@Test(priority=15)
 	public void tan_90() throws InterruptedException 
 	{
 		driver.findElement(By.xpath("//*[@id=\"homefunbtn\"]/div[1]/span[3]")).click();

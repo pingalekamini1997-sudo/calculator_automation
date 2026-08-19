@@ -1,41 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-08-18T22:31:04 IST" name="Default suite" finished-at="2026-08-18T22:31:23 IST" duration-ms="19286">
+  <suite started-at="2026-08-19T11:19:32 IST" name="Suite" finished-at="2026-08-19T11:20:14 IST" duration-ms="42091">
     <groups>
     </groups>
-    <test started-at="2026-08-18T22:31:04 IST" name="Default test" finished-at="2026-08-18T22:31:23 IST" duration-ms="19286">
+    <test started-at="2026-08-19T11:19:32 IST" name="Test" finished-at="2026-08-19T11:20:14 IST" duration-ms="42091">
       <class name="com.calculator.calculator_automation.TanTest">
-        <test-method is-config="true" signature="setup_launch()[pri:0, instance:com.calculator.calculator_automation.TanTest@6a78afa0]" started-at="2026-08-18T22:31:04 IST" name="setup_launch" finished-at="2026-08-18T22:31:10 IST" duration-ms="6240" status="PASS">
+        <test-method is-config="true" signature="setup_launch()[pri:0, instance:com.calculator.calculator_automation.TanTest@3eb25e1a]" started-at="2026-08-19T11:18:33 IST" name="setup_launch" finished-at="2026-08-19T11:19:32 IST" duration-ms="58500" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup_launch -->
-        <test-method signature="tan_30()[pri:-1, instance:com.calculator.calculator_automation.TanTest@6a78afa0]" started-at="2026-08-18T22:31:10 IST" name="tan_30" finished-at="2026-08-18T22:31:13 IST" duration-ms="2196" status="PASS">
+        <test-method signature="sin_0()[pri:1, instance:com.calculator.calculator_automation.TanTest@3eb25e1a]" started-at="2026-08-19T11:19:32 IST" name="sin_0" finished-at="2026-08-19T11:19:36 IST" duration-ms="4287" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tan_30 -->
-        <test-method signature="tan_0()[pri:0, instance:com.calculator.calculator_automation.TanTest@6a78afa0]" started-at="2026-08-18T22:31:13 IST" name="tan_0" finished-at="2026-08-18T22:31:17 IST" duration-ms="4124" status="PASS">
+        </test-method> <!-- sin_0 -->
+        <test-method signature="sin_30()[pri:2, instance:com.calculator.calculator_automation.TanTest@3eb25e1a]" started-at="2026-08-19T11:19:36 IST" name="sin_30" finished-at="2026-08-19T11:19:39 IST" duration-ms="2366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sin_30 -->
+        <test-method signature="sin_45()[pri:3, instance:com.calculator.calculator_automation.TanTest@3eb25e1a]" started-at="2026-08-19T11:19:39 IST" name="sin_45" finished-at="2026-08-19T11:19:41 IST" duration-ms="2418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sin_45 -->
+        <test-method signature="sin_60()[pri:4, instance:com.calculator.calculator_automation.TanTest@3eb25e1a]" started-at="2026-08-19T11:19:41 IST" name="sin_60" finished-at="2026-08-19T11:19:43 IST" duration-ms="2441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sin_60 -->
+        <test-method signature="sin_90()[pri:5, instance:com.calculator.calculator_automation.TanTest@3eb25e1a]" started-at="2026-08-19T11:19:43 IST" name="sin_90" finished-at="2026-08-19T11:19:46 IST" duration-ms="2355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sin_90 -->
+        <test-method signature="cos_0()[pri:6, instance:com.calculator.calculator_automation.TanTest@3eb25e1a]" started-at="2026-08-19T11:19:46 IST" name="cos_0" finished-at="2026-08-19T11:19:50 IST" duration-ms="4346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cos_0 -->
+        <test-method signature="cos_30()[pri:7, instance:com.calculator.calculator_automation.TanTest@3eb25e1a]" started-at="2026-08-19T11:19:50 IST" name="cos_30" finished-at="2026-08-19T11:19:52 IST" duration-ms="2371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cos_30 -->
+        <test-method signature="cos_45()[pri:8, instance:com.calculator.calculator_automation.TanTest@3eb25e1a]" started-at="2026-08-19T11:19:52 IST" name="cos_45" finished-at="2026-08-19T11:19:55 IST" duration-ms="2417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cos_45 -->
+        <test-method signature="cos_60()[pri:9, instance:com.calculator.calculator_automation.TanTest@3eb25e1a]" started-at="2026-08-19T11:19:55 IST" name="cos_60" finished-at="2026-08-19T11:19:57 IST" duration-ms="2470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cos_60 -->
+        <test-method signature="cos_90()[pri:10, instance:com.calculator.calculator_automation.TanTest@3eb25e1a]" started-at="2026-08-19T11:19:57 IST" name="cos_90" finished-at="2026-08-19T11:20:00 IST" duration-ms="2457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cos_90 -->
+        <test-method signature="tan_0()[pri:11, instance:com.calculator.calculator_automation.TanTest@3eb25e1a]" started-at="2026-08-19T11:20:00 IST" name="tan_0" finished-at="2026-08-19T11:20:04 IST" duration-ms="4337" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tan_0 -->
-        <test-method signature="tan_60()[pri:0, instance:com.calculator.calculator_automation.TanTest@6a78afa0]" started-at="2026-08-18T22:31:17 IST" name="tan_60" finished-at="2026-08-18T22:31:19 IST" duration-ms="2154" status="PASS">
+        <test-method signature="tan_30()[pri:12, instance:com.calculator.calculator_automation.TanTest@3eb25e1a]" started-at="2026-08-19T11:20:04 IST" name="tan_30" finished-at="2026-08-19T11:20:07 IST" duration-ms="2435" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tan_60 -->
-        <test-method signature="tan_45()[pri:2, instance:com.calculator.calculator_automation.TanTest@6a78afa0]" started-at="2026-08-18T22:31:19 IST" name="tan_45" finished-at="2026-08-18T22:31:21 IST" duration-ms="2159" status="PASS">
+        </test-method> <!-- tan_30 -->
+        <test-method signature="tan_45()[pri:13, instance:com.calculator.calculator_automation.TanTest@3eb25e1a]" started-at="2026-08-19T11:20:07 IST" name="tan_45" finished-at="2026-08-19T11:20:09 IST" duration-ms="2424" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tan_45 -->
-        <test-method signature="tan_90()[pri:3, instance:com.calculator.calculator_automation.TanTest@6a78afa0]" started-at="2026-08-18T22:31:21 IST" name="tan_90" finished-at="2026-08-18T22:31:23 IST" duration-ms="2138" status="PASS">
+        <test-method signature="tan_60()[pri:14, instance:com.calculator.calculator_automation.TanTest@3eb25e1a]" started-at="2026-08-19T11:20:09 IST" name="tan_60" finished-at="2026-08-19T11:20:11 IST" duration-ms="2405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tan_60 -->
+        <test-method signature="tan_90()[pri:15, instance:com.calculator.calculator_automation.TanTest@3eb25e1a]" started-at="2026-08-19T11:20:11 IST" name="tan_90" finished-at="2026-08-19T11:20:14 IST" duration-ms="2417" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tan_90 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.calculator.calculator_automation.TanTest@6a78afa0]" started-at="2026-08-18T22:31:23 IST" name="closeBrowser" finished-at="2026-08-18T22:31:23 IST" duration-ms="218" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.calculator.calculator_automation.TanTest@3eb25e1a]" started-at="2026-08-19T11:20:14 IST" name="closeBrowser" finished-at="2026-08-19T11:20:15 IST" duration-ms="616" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- com.calculator.calculator_automation.TanTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
