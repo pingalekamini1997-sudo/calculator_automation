@@ -3,12 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.calculator.calculator_automation.calculator_functions">
+      <class name="com.calculator.calculator_automation.Fitness_Health_calculators">
         <methods>
-          <include name="Addition"/>
+          <include name="due_date_cal"/>
+          <include name="pregnancy_calculator"/>
+          <include name="fitnes_health_cal"/>
+          <include name="pace_calculator"/>
+          <include name="pregnancy_conception_cal"/>
+          <include name="ideal_wait_cal"/>
           <include name="Launch"/>
         </methods>
-      </class> <!-- com.calculator.calculator_automation.calculator_functions -->
+      </class> <!-- com.calculator.calculator_automation.Fitness_Health_calculators -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
